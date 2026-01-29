@@ -2,8 +2,11 @@ name: Auto Update Repo
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # har 6 ghante
+    - cron: "0 */6 * * *"
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update:
@@ -13,14 +16,20 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Run update script
+      - name: Update file
         run: |
-          echo "Last update: $(date)" >> update.log
+          echo "Last update: $(date)" > update.log
 
-      - name: Commit changes
+      - name: Commit and push (only if changed)
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git add .
-          git commit -m "Auto update"
-          git push
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add update.log
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto update"
+            git push
+          fi
