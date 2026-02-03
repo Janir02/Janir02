@@ -667,14 +667,6 @@ https://z5ak-cmaflive.zee5.com/cmaf/live/2105510/ZEENEWSELE/master.m3u8?hdntl=ex
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
 https://z5live-cf.zee5.com/out/v1/ZEE5_Live_Channels/And-Prive-HD/index-connected/index-connected.m3u8?hdntl=exp=1770210029~acl=%2f*~id=64d4ba7f-036f-48ea-ba7f-8109b7e7316b~data=hdntl~hmac=f2a9f94e7af13c5be709c8b4efa536be6e64aef5e9ce3995784a401a25b8d413
 
-#EXTINF:-1 tvg-id="0-9-zeebusiness" group-title="News" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_374,h_374,c_fill,f_webp,q_auto:eco/resources/0-9-zeebusiness/square/zeebusiness1c5a206aa6b74224a8b827e9ee1e560e",Zee Business
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://z5ak-cmaflive.zee5.com/cmaf/live/2105509/ZEEBUSINESSELE/master.m3u8?hdntl=exp=1770210029~acl=%2f*~id=64d4ba7f-036f-48ea-ba7f-8109b7e7316b~data=hdntl~hmac=f2a9f94e7af13c5be709c8b4efa536be6e64aef5e9ce3995784a401a25b8d413
-
-#EXTINF:-1 tvg-id="0-9-zee24kalak" group-title="Gujarati" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_374,h_374,c_fill,f_webp,q_auto:eco/resources/0-9-zee24kalak/square/kalak50b4453680064baabf2791b99daae36f",Zee 24 Kalak
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://z5ak-cmaflive.zee5.com/cmaf/live/2105497/ZEE24KALAKELE/master.m3u8?hdntl=exp=1770210029~acl=%2f*~id=64d4ba7f-036f-48ea-ba7f-8109b7e7316b~data=hdntl~hmac=f2a9f94e7af13c5be709c8b4efa536be6e64aef5e9ce3995784a401a25b8d413
-
 #EXTINF:-1 tvg-id="0-9-bigmagic_1786965389" group-title="Entertainment" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_374,h_374,c_fill,f_webp,q_auto:eco/resources/0-9-bigmagic_1786965389/square/img76609c72712684f749d0865111870adf6daa",Big Magic
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
 https://z5live-cf.zee5.com/out/v1/ZEE5_Live_Channels/Big-Magic-SD/master/master.m3u8?hdntl=exp=1770210029~acl=%2f*~id=64d4ba7f-036f-48ea-ba7f-8109b7e7316b~data=hdntl~hmac=f2a9f94e7af13c5be709c8b4efa536be6e64aef5e9ce3995784a401a25b8d413
