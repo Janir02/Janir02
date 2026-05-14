@@ -2,8 +2,11 @@ name: Auto Update File
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # every 30 minutes
+    - cron: "*/30 * * * *"
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update-file:
@@ -22,5 +25,5 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add .
-          git commit -m "Auto update" || echo "No changes"
+          git commit -m "Auto update" || exit 0
           git push
